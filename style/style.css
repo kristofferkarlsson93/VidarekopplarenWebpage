@@ -6,6 +6,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden
 }
 
 
@@ -54,5 +55,7 @@ p {
 
 .get-it-section {
     margin: 0 auto;
+    background-color: #3ACDFF; 
+    padding-bottom: 10%; 
 }
 
