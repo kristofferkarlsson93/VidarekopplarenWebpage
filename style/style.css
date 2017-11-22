@@ -1,6 +1,58 @@
 
 
-body {
-    background-image: url('../images/background.jpg');
-    background-size: cover
+body { 
+    background: url('../images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+
+h1 {
+    font-size: 5em;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 2.2em;
+    color: #ffffff;
+    padding-bottom: 2%;
+}
+
+p {
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.section {
+    padding-top: 5%; 
+}
+
+.header-section-text {
+    padding-top: 5%;
+}
+
+.phone-image {
+    max-height: 500px;
+    width: auto;
+}
+
+.widget-section {
+    padding-top: 10%
+}
+
+.right-side-text {
+    padding-left: 15%;
+}
+
+.get-it-section {
+    margin: 0 auto;
+}
+
