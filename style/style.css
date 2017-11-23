@@ -10,11 +10,13 @@ body {
 }
 
 h1 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 5em;
     color: #ffffff;
 }
 
 h3 {
+    font-family: 'Ubuntu', sans-serif; 
     font-size: 2.2em;
     color: #ffffff;
     padding-bottom: 2%;
@@ -22,6 +24,8 @@ h3 {
 }
 
 p {
+    font-family: 'Ubuntu', sans-serif;
+    
     font-size: 1.9em;
     color: #ffffff;
 }
