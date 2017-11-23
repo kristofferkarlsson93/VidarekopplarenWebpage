@@ -9,7 +9,6 @@ body {
     overflow-x: hidden
 }
 
-
 h1 {
     font-size: 5em;
     color: #ffffff;
@@ -60,3 +59,37 @@ p {
     padding-bottom: 10%; 
 }
 
+.note-text {
+    padding-top: 5%
+}
+
+/*ANIMATION SET UP*/
+
+.right-side-image-container {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.left-side-image-container {
+    animation: 1s ease-out 0s 1 slideInFromRight;
+    
+}
+
+/*KEYFRAMES*/
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(300%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
