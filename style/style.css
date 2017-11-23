@@ -79,7 +79,7 @@ p {
 
 @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-300%);
+      transform: translateX(-200%);
     }
     100% {
       transform: translateX(0);
@@ -88,7 +88,7 @@ p {
 
 @keyframes slideInFromRight {
     0% {
-        transform: translateX(300%);
+        transform: translateX(200%);
       }
       100% {
         transform: translateX(0);
